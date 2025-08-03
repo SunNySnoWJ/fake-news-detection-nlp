@@ -76,6 +76,6 @@ All key result figures (metrics, plots, etc.) are stored in:
   Result photos/
   
 This includes:
-	•	Confusion matrix screenshot
-	•	Attack performance plots
-	•	Confidence distribution visualizations
+- Confusion matrix screenshot
+- Attack performance plots
+- Confidence distribution visualizations
