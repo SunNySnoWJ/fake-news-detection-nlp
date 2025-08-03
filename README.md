@@ -1,6 +1,6 @@
 # Fake News Detection Using BERT with Adversarial Robustness Testing
 
-This project applies BERT-based models to detect fake news and further evaluates their robustness against adversarial attacks using **TextFooler**. It covers preprocessing, training, evaluation, adversarial training, and post-attack analysis with visualizations.
+This project applies BERT-based models to detect fake news and further evaluates their robustness against adversarial attacks using TextFooler. It covers preprocessing, training, evaluation, adversarial training, and post-attack analysis with visualizations.
 
 ## Project Structure
 
