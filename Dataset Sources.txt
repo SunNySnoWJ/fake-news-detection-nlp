@@ -1,0 +1,9 @@
+Dataset Sources
+
+1. FakeNewsNet Dataset:
+   https://github.com/KaiDMML/FakeNewsNet
+   Description: Used for training and evaluating fake news detection models.
+
+2. News API – Real-time News Data:
+   https://newsapi.org
+   Description: Used to collect up-to-date news articles for testing on live data.
