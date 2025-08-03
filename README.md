@@ -73,8 +73,9 @@ Adversarial Testing
 
 Output Visualizations
 All key result figures (metrics, plots, etc.) are stored in:
+```bash
   Result photos/
-  
+``` 
 This includes:
 - Confusion matrix screenshot
 - Attack performance plots
