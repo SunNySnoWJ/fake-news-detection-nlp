@@ -22,36 +22,40 @@ fake-news-detection-nlp/
 │   └── *.png
 ├── Dataset Sources.txt               # Reference links to raw datasets
 └── README.md                         # Project documentation
-
+```
 
 ## How to Run
 
 1. Install Dependencies
 
 Create a virtual environment (optional but recommended):
+```bash
   python -m venv venv
   source venv/bin/activate    # or .\venv\Scripts\activate on Windows
-
+```
 Install required packages:
+```bash
   pip install -r requirements.txt
-
+```
 2. Prepare Dataset
    
 Run the following preprocessing scripts in order from the Code/ directory:
-
+```bash
   python Preprocessing_Fakenewsnet.py
   python Preprocessing_Latest_News.py
   python realtime_news.py
-
+```
 3. Train and Evaluate the Models
 
 Run the notebook:
+```bash
   jupyter notebook model_bert.ipynb
-
+```
 Or convert and run as a Python script:
+```bash
   jupyter nbconvert --to script model_bert.ipynb
   python model_bert.py
-
+```
 ## Results & Outputs
 
 After training and evaluation, the following results are expected:
