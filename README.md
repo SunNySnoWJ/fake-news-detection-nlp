@@ -61,21 +61,15 @@ Or convert and run as a Python script:
 After training and evaluation, the following results are expected:
 
 Model Evaluation
-	•	Classification Report showing precision, recall, and F1-score
-	•	Confusion Matrix heatmap for Fake vs Real predictions
+- Classification Report showing precision, recall, and F1-score
+- Confusion Matrix heatmap for Fake vs Real predictions
 
 Adversarial Testing
-	•	TextFooler attack applied before and after adversarial training
-	•	Significant reduction in attack success rate after retraining
-	•	Visualizations include:
-	•	Bar chart of attack success vs resistance
-	•	Histogram of prediction confidence scores
-
-Prediction Results
-	•	Clean news predictions:
-	•	dataset/bert_predictions_on_cleaned_news.csv
-	•	Predictions with confidence:
-	•	dataset/bert_predictions_with_confidence.csv
+- TextFooler attack applied before and after adversarial training
+- Significant reduction in attack success rate after retraining
+- Visualizations include:
+- Bar chart of attack success vs resistance
+- Histogram of prediction confidence scores
 
 Output Visualizations
 All key result figures (metrics, plots, etc.) are stored in:
